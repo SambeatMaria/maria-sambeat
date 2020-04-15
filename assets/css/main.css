@@ -427,9 +427,9 @@ section#about {
 }
 
 #work .watermark {
-  position: relative;
-  top: 0;
+  bottom: 10%;
   text-align: center;
+  font-size: 12vw;
 }
 
 .main-mockup {
@@ -437,7 +437,7 @@ section#about {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 75vh;
+  width: 60vw;
 }
 
 #recent-work {
