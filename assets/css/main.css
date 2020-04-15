@@ -27,7 +27,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  color: #121833;
+  color: var(--color-primary);
   font-family: 'Noah', Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #E2BB7D;
+  color: var(--color-secondary);
 }
 
 h1, h2, h3 {
@@ -149,7 +149,7 @@ section {
 
 #about .watermark span {
   font-family: 'Mont';
-  color: #e2bb7d;
+  color: var(--color-secondary);
   font-weight: 700;
   text-shadow: 4px 4px 5px rgba(226,187,125,0.5);
 }
