@@ -114,16 +114,6 @@ a.btn:hover {
   position: relative;
 }
 
-.cursor {
-  left: 0;
-  top: 0;
-  width: 10px;
-  height: 10px;
-  background-color: #f44336;
-  position: absolute;
-  border-radius: 5px;
-}
-
 .main-wrapper-dark {
   background: #191a1e;
 }
