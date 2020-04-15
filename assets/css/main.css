@@ -136,7 +136,6 @@ a.btn:hover {
 section {
   min-height: 100vh;
   width: 100%;
-  cursor: pointer;
 }
 
 .watermark {
@@ -339,9 +338,11 @@ section {
 /* SECTION ABOUT */
 
 section#about {
+  display: flex;
+  align-items: center;
   position: relative;
-  min-height: 100vh;
   width: 100%;
+  min-height: 100vh;
   padding: 20vh 0;
 }
 
