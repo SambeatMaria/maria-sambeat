@@ -3,5 +3,11 @@
 }
 
 .margin-bottom-large {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+
+.grid-wrapper-2-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
