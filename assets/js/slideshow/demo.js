@@ -36,9 +36,9 @@
 
     var urlsProyectos = {
       proyecto1: "casino-mediterraneo.html",
-      proyecto2: "http://www.esat.es",
-      proyecto3: "http://www.renfe.es",
-      proyecto4: "http://www.aemet.es",
+      proyecto2: "this-is-yours.html",
+      proyecto3: "#",
+      proyecto4: "#",
     }
 
 
@@ -404,7 +404,6 @@
         }
         openSlide() {
             this.toggleSlide('open');
-            window.alert('holasisisi')
         }
         closeSlide() {
             this.toggleSlide('close');
