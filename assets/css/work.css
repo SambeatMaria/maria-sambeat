@@ -26,16 +26,30 @@
 	width: 100%;
 	left: 0;
 	top: 0;
-	grid-template-columns: 30% 30% 30%;
-	grid-column-gap: 5%;
+	grid-template-columns: 100%;
+	grid-column-gap: 0;
 	grid-template-areas: 'griditem-left griditem-center griditem-right';
 }
 
 .grid--slideshow,
 .grid--interaction {
 	left: -5%;
-	width: 110%;
+	width: 100%;
 	pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+	.grid {
+		grid-template-columns: 30% 30% 30%;
+		grid-column-gap: 5%;
+	}
+
+	.grid--slideshow,
+	.grid--interaction {
+		left: -5%;
+		width: 110%;
+		pointer-events: none;
+	}
 }
 
 .grid--slideshow {
