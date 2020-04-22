@@ -1,5 +1,3 @@
-# maria-sambeat
-Mis cosas
+# README.MD
+Maria Sambeat Creative Portfolio
 
-Editado desde la rama 'new-fature'
-Editado desde la rama Local new-feature
