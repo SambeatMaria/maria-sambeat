@@ -630,13 +630,15 @@ section#about {
 @media screen and (min-width: 768px) {
   .project-content {
     grid-template-columns: 1fr 2fr;
+    max-width: 85vw;
+    margin: 0 auto;
   }
 
   .sidebar-wrapper {
-    padding: 5em 1em 1em 8em;
+    padding: 10em 0 0 8em;
   }
 
   .preview-wrapper {
-    padding: 5rem 8rem 2rem 4rem;
+    padding: 5rem 4rem 2rem 1rem;;
   }
 }
