@@ -110,7 +110,6 @@ a.btn:hover {
 .main-wrapper {
   min-height: 100%;
   background: linear-gradient(135deg, rgba(248,248,248,1) 0%,rgba(228,230,233,1) 100%);
-  overflow: hidden;
   position: relative;
 }
 
@@ -426,6 +425,12 @@ section#about {
 
   .column-right {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-wrapper {
+    overflow-x: hidden;
   }
 }
 
